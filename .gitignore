@@ -1,2 +1,3 @@
 .idea/*
-data/fer2013.cvs
+model_t1.py
+src/fer2013.csv
