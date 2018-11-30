@@ -63,54 +63,6 @@ print('Validation: ', y_validation.shape)
 print('Test: ', y_test.shape)
 
 # actual model
-"""
-model = Sequential()
-
-model.add(Convolution2D(64, (3, 3), padding='same', input_shape=(48, 48, 1)))
-# model.add(Convolution2D(64, (1, 3), padding='same'))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2), strides=None, padding='same'))
-model.add(Dropout(0.25))
-
-model.add(Convolution2D(128, (3, 3), padding='same'))
-# model.add(Convolution2D(128, (1, 3), padding='same'))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2), strides=None, padding='same'))
-model.add(Dropout(0.25))
-
-model.add(Convolution2D(256, (3, 3), padding='same'))
-# model.add(Convolution2D(256, (1, 3), padding='same'))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2), strides=None, padding='same'))
-model.add(Dropout(0.25))
-
-model.add(Convolution2D(512, (3, 3), padding='same'))
-# model.add(Convolution2D(512, (1, 3), padding='same'))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2), strides=None, padding='same'))
-model.add(Dropout(0.25))
-
-model.add(Flatten())
-
-model.add(Dense(512))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(Dropout(0.25))
-
-model.add(Dense(256))
-model.add(BatchNormalization())
-model.add(Activation('relu'))
-model.add(Dropout(0.25))
-
-model.add(Dense(7))
-model.add(Activation('softmax'))
-
-"""
-
 model = get_model1()
 
 model.summary()
