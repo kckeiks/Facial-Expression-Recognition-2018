@@ -2,9 +2,7 @@ import pandas
 from math import sqrt
 import numpy as np
 import matplotlib.pyplot as plt
-from keras.layers import Convolution2D, Activation, BatchNormalization, MaxPooling2D, Dropout, Dense, Flatten
-from keras.models import Sequential
-from model1 import get_model1
+from model1 import get_model1, get_model2
 
 from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
