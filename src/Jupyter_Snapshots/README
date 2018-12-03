@@ -1,0 +1,3 @@
+Directory containing copies of the Jupyter notebook version of the project.
+
+The notebook will be saved under different names after running the model(s) under different circumstances, to give an idea of how the project has evolved over time.  Since output should be saved inline, this should also allow us to have a way to reference our results for these different circumstances without having to store a large number of additional data and/or files.
