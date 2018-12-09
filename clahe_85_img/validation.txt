@@ -1,0 +1,18 @@
+28/28 [==============================] - 6s 206ms/step
+Model 1 Evaluation Loss:  0.9769575595855713
+Model 1 Evaluation Accuracy:  0.6408470273017883
+
+
+28/28 [==============================] - 7s 257ms/step
+Model 2 Evaluation Loss:  0.9993553757667542
+Model 2 Evaluation Accuracy:  0.6427974104881287
+
+
+28/28 [==============================] - 11s 394ms/step
+Model 3 Evaluation Loss:  0.9144213199615479
+Model 3 Evaluation Accuracy:  0.6132627725601196
+
+
+28/28 [==============================] - 4s 147ms/step
+Model 4 Evaluation Loss:  1.1447107791900635
+Model 4 Evaluation Accuracy:  0.5965449810028076
